@@ -1,0 +1,52 @@
+
+main{
+ margin: auto; 
+ /*min-width: 800px;*/
+ background: rgb(4,0,70);
+background: radial-gradient(circle, rgba(4,0,70,0.4822303921568627) 16%, rgba(139,139,139,1) 63%, rgba(0,212,255,1) 100%);
+ min-height: 550px;
+ display: flex;
+align-items: center;
+justify-content: center;
+}
+
+content{
+display: flex;
+}
+
+div{ border: 1px solid black;}
+
+#piccontainer{
+display: flex;
+justify-content: center;
+background:none;
+margin: 100px;
+}
+
+.nyil{
+display: flex;
+}
+
+.pic img{
+    width: 100%;
+max-height: 300px;
+display: flex;
+box-shadow: 5px 15px 30px #111111;
+
+}
+
+.jobbra img{
+    transform: rotate(0.5turn);
+    display: inline;
+}
+
+button{
+ background: honeydew;
+ display: flex;
+ height: 100%;
+ padding: 10px;
+ border: none;
+ align-items: center;
+}
+
+img {object-fit: cover;}
